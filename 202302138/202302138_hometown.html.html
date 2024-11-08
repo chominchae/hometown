@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Hometown </title>
+    <link rel="stylesheet" href="202302138_hometown.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header id="main-header">
+        <h1>Yongin</h1> <!-- H1 heading -->
+        <h2>Introducing beautiful Yongin.</h2> <!-- H2 heading -->
+        <p>Yongin, located in Gyeonggi Province, is a beautiful city where nature and history harmonize!</p> 
+         <!-- Navigation Links -->
+         <nav class="nav-links">   
+                <!-- use nbsp to make links readable -->
+                <a href="#history">History</a>  &nbsp; | &nbsp;
+                <a href="#attractions">Attractions</a>  &nbsp; | &nbsp;
+                <a href="#food">Local Food</a> &nbsp; | &nbsp;
+                <a href="#contact">Contact </a>
+        </nav>
+    </header>
+
+    <main>
+        <hr>
+        <!-- History Section -->
+        <section id="history">
+            <h2>History of the Hometown</h2>
+
+            <h3>1. Goryeo and Joseon Dynasties</h3>
+            <p>During the Goryeo Dynasty, Yongin developed as an agricultural center, and during the Joseon Dynasty, it was closely related to the royal family as a site of royal tombs.</p>
+            
+            <h3>2. Modernization and Urban Development</h3>
+            <p>In modern times, urbanization rapidly progressed due to its proximity to Seoul, leading to a significant population increase since the 1990s due to metropolitan development.</p>
+            
+            <h3>3. Growth of Modern Yongin</h3>
+            <p>Today, Yongin has grown into a transportation and economic hub, attracting attention with tourist attractions like Everland and the development of the IT industry.</p>
+            
+            <a href="https://www.grandculture.net/yongin/toc/GC00900378" target="_blank">Current Yongin</a>
+            <a href="https://yongin.grandculture.net/yongin/toc/GC00902983" target="_blank">Past & Future of Yongin</a>
+        </section>
+
+        <hr>
+        <!-- Attractions Section -->
+        <section id="attractions">
+            <h2>Main Attractions</h2>
+            <table class="attractions-table">
+                <tr>
+                    <th>Name</th>
+                    <th>Type of Attraction</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Everland</td>
+                    <td>Theme Park</td>
+                    <td>The most famous theme park in Korea, with various rides, a zoo, and gardens.</td>
+                </tr>
+                <tr>
+                    <td>Korean Folk Village</td>
+                    <td>Traditional Culture Experience</td>
+                    <td>A place where you can experience Korean culture and lifestyle, featuring various traditional performances and exhibitions.</td>
+                </tr>
+                <tr>
+                    <td>Yongin Natural Recreation Forest</td>
+                    <td>Nature</td>
+                    <td>A space for healing in nature, equipped with walking trails and picnic areas.</td>
+                </tr>
+            </table>
+            <div class="attractions-image">
+            <br>
+            <img src="202302138_images/everland.jpg" alt="Everland" width="300" height="200">
+            <img src="202302138_images/minsokchon.jpeg" alt="Korean Folk Village" width="300" height="200">
+            <img src="202302138_images/forest.jpeg" alt="Yongin Natural Recreation Forest" width="300" height="200">
+            </div>
+        </section>
+        
+        <!-- Media Section -->
+        <section id="media">
+            <h2>Enjoy the T Express, a highlight of Everland!</h2>
+            <!-- add a autoplay function -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Y9hvLFOAX38?autoplay=1&si=fmQ5KMPAgWgBwhAh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <hr>
+        <!-- Local Food Section -->
+        <section id="food">
+            <h2>Local Food &#x1F374;</h2>
+            <ul>
+                <li>Kimchi</li>
+                <li>Bulogi &#x1F953;</li>
+                <li>Bibimbap</li>
+                <li>Doenjang-jjigae &#x1F372;</li>
+                <li>Japchae &#x1F35D;</li>
+            </ul>
+            <img src="202302138_images/japchae.jpeg" alt="Japchae Photo" width="200" height="150">
+            <img src="202302138_images/bibimbap.jpeg" alt="Bibimbap Photo" width="200" height="150">
+        </section>
+        <br>
+        <hr>
+
+        <!-- Fun Facts Section -->
+        <section id="fun-facts" class="fun-facts">
+            <h2>Fun Facts About My Hometown  &#x1F60A;</h2>
+            <ul>
+                <li>Yongin has many royal tombs historically, deeply connected to the Joseon royal family. &#10022;</li>
+                <li>Everland is known as the largest theme park in Korea, attracting millions of visitors every year. 
+                    <br> There’s a funny saying that when someone mentions their hometown is Yongin, most people respond, "Ah, Everland?" &#9733;</li>
+                <li>Annual traditional festivals provide opportunities to experience local culture and traditions. &#9873;</li>                
+            </ul>
+        </section>
+        
+        <hr>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form" action="No_page.php" >
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"> <br><br>
+
+                <label for="inquiry-type">Type of Inquiry:</label><br>
+                <select id="inquiry-type" name="inquiry-type">
+                    <option value="general">General Inquiry</option>
+                    <option value="tourism">Tourism Inquiry</option>
+                    <option value="error_report">Error Correction Inquiry</option>
+                </select><br><br>
+
+                <label for="suggestions">Subject Suggestions:</label><br>
+                <input list="suggestions-list" id="suggestions" name="suggestion" placeholder="Select a subject" autocomplete="on">
+                <datalist id="suggestions-list">
+                    <option value="Culture"></option>
+                    <option value="History"></option>
+                    <option value="Nature"></option>
+                </datalist><br><br>
+                
+                <label for="date">Select Date:</label><br>
+                <input type="date" id="date" name="date"><br><br>
+
+                <label for="time">Select Time:</label><br>
+                <input type="time" id="time" name="time"><br><br>
+
+                <label for="message">Additional Comments:</label><br>
+                <textarea id="message" name="message" placeholder="Enter your message" rows="5"></textarea><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+        
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Yogin. All rights reserved. <a href="#main-header"> Go to header</a></p>
+    </footer>
+</body>
+</html>

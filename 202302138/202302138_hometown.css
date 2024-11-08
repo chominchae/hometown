@@ -1,0 +1,103 @@
+body { 
+    background-color:#d8e2d8; /*backgroundcolor1, HEX values*/
+    margin:15px; /* margin1 */
+    font-family :'Times New Roman', Times, serif
+}
+
+h1{
+    color:#FCEB5B; /*text-color1*/
+    margin:20px; /* margin2 */ 
+    font-size:50px; /* font-size1 */ 
+    font-weight:bold; /* font-property1 */
+}   
+
+h2{
+    font-size:30px; /* font-size2 */ 
+    font-weight:bold;
+
+    font-style:oblique; /* font-property2  */
+
+}
+
+#main-header {
+    color: white;/* text-color2, color names */
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url("/202302138_images/nature.png");
+    /*background-image properties*/
+    background-size: cover; 
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.nav-links {
+    border: 2px solid white; /* border1 */
+    text-align: center;
+    background-color: #FCEB5B; /* backgroundcolor2 */
+    padding: 10px; /* padding2 */
+}
+
+.nav-links a {
+    color: rgb(0, 0, 0); /* text-color3, RGB */
+    text-decoration:none;
+}
+
+.nav-links a:visited {
+    color: gray;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.nav-links a:active{  
+    color:blue;
+}
+
+.attractions-table { 
+    border-radius: 10px;
+    width: 80%;  /* width1 */
+    border-collapse: collapse; 
+    text-align: left;
+}
+
+.attractions-table th {
+    background-color: #d1e7dd; /* backgroundcolor3*/
+    color: black;
+    font-weight: bold;
+}
+
+.attractions-table th, .attractions-table td { 
+    border: 2px solid hsl(138, 84%, 21%); /* border2, HSL */
+    padding: 10px;  /* padding3 */
+}
+
+.attractions-table tr:nth-child(even) {
+    background-color: #f0f0f0; 
+}
+
+img{
+    box-sizing:border-box;
+    margin-right:20px; /*In img section, right margin(margin-right) is differenf form other's margins*/
+    border: 2px solid rgb(255, 255, 255); /* border3 */
+}
+
+.contact-form { 
+    margin:20px; /*margin3*/
+    border:3px double black;
+    background-color: #FCEB5B;
+    padding:20px;
+    width:60%; /* width2 */
+    height:600px;/* height */
+}
+
+footer{
+    border: 2px solid black;
+    padding:10px;
+    
+    background-color: rgb(255, 255, 255);
+    width: 100%; /*width3*/ 
+    height:30x; /* height3 */ 
+    font-size: 20px; /* font-size3 */
+}
